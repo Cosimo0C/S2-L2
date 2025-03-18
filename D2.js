@@ -86,7 +86,44 @@ if (black >= carrello) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+/*const a = 10;
+const b = 0;
+const c = 10;
+let primo;
+let secondo;
+let terzo;
+if (a >= b && a >= c && b >= c) {
+  primo = a;
+  secondo = b;
+  terzo = c;
+} else if (a >= b && a >= c && c >= b) {
+  primo = a;
+  secondo = c;
+  terzo = b;
+} else if (b >= a && b >= c && a >= c) {
+  primo = b;
+  secondo = a;
+  terzo = c;
+} else if (b >= a && b >= c && c >= a) {
+  primo = b;
+  secondo = c;
+  terzo = a;
+} else if (c >= a && c >= b && a >= b) {
+  primo = c;
+  secondo = a;
+  terzo = b;
+} else if (c >= a && c >= b && b >= a) {
+  primo = c;
+  secondo = b;
+  terzo = a;
+} else if (a == b && b == c) {
+  primo = a;
+  secondo = b;
+  terzo = c;
+}
+console.log(primo);
+console.log(secondo);
+console.log(terzo);*/
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
@@ -174,7 +211,7 @@ console.log(me);*/
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const lista = [];
+/*const lista = [];
 array.push(1);
 array.push(2);
 array.push(3);
@@ -185,12 +222,12 @@ array.push(7);
 array.push(8);
 array.push(9);
 array.push(10);
-console.log(array);
+console.log(array);*/
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const lastIndex = lista.lenght - 1;
+/*const lastIndex = lista.lenght - 1;
 lista.splice(lastIndex, 1, 100);
-console.log(array);
+console.log(array);*/
