@@ -37,7 +37,6 @@ if (a % 25 == 0) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
 /*const a = 8;
 const b = 0;
 console.log(" il primo numero è " + a);
@@ -69,7 +68,17 @@ if (totalShoppingCart >= carrello) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+/*const totalShoppingCart = 65;
+const carrello = 50;
+const spedizione = 10;
+const black = totalShoppingCart - (totalShoppingCart * 20) / 100;
+const tot = black + spedizione;
+console.log("Oggi è il Black friday. Hai lo sconto del 20% sulla spesa. Paghi " + black);
+if (black >= carrello) {
+  console.log("Hai speso almeno 50, quindi avrai la spedizione in omaggio. Il totale è " + black);
+} else {
+  console.log("Non hai speso almeno 50, quindi dovrai pagare la spedizione. Il totale è " + tot);
+}*/
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
@@ -83,13 +92,20 @@ if (totalShoppingCart >= carrello) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+/*const a = 10;
+console.log(" il numero è " + a);
+console.log(typeof a);*/
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+/*const a = 11;
+if (a % 2 === 0) {
+  console.log("il numero è pari");
+} else {
+  console.log("il numero è dispari");
+}*/
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
   let val = 7
@@ -103,7 +119,14 @@ if (totalShoppingCart >= carrello) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+/*let val = 10;
+if (val < 5) {
+  console.log("Meno di 5");
+} else if (val < 10) {
+  console.log("Meno di 10");
+} else {
+  console.log("Uguale a 10 o maggiore");
+}
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
@@ -115,17 +138,35 @@ const me = {
 };
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+/*const me = {
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"],
+};
+me.city = "Toronto";
+console.log(me["city"]);*/
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+/*const me = {
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"],
+};
+delete me.lastName;
+console.log(me);*/
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
-
+/*const me = {
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"],
+};
+me.skills.pop();
+console.log(me);*/
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 14
@@ -133,9 +174,23 @@ const me = {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+const array = [];
+array.push(1);
+array.push(2);
+array.push(3);
+array.push(4);
+array.push(5);
+array.push(6);
+array.push(7);
+array.push(8);
+array.push(9);
+array.push(10);
+console.log(array);
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const lastIndex = array.lenght - 1;
+array.splice(lastIndex, 1, 100);
+console.log(array);
