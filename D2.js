@@ -174,7 +174,7 @@ console.log(me);*/
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const array = [];
+const lista = [];
 array.push(1);
 array.push(2);
 array.push(3);
@@ -191,6 +191,6 @@ console.log(array);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const lastIndex = array.lenght - 1;
-array.splice(lastIndex, 1, 100);
+const lastIndex = lista.lenght - 1;
+lista.splice(lastIndex, 1, 100);
 console.log(array);
