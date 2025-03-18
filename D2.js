@@ -57,10 +57,11 @@ if (a === 8 || b === 8) {
 /*const totalShoppingCart = 40;
 const carrello = 50;
 const spedizione = 10;
+const tot = totalShoppingCart + spedizione;
 if (totalShoppingCart >= carrello) {
   console.log("Hai speso almeno 50, quindi avrai la spedizione in omaggio. Il totale è " + totalShoppingCart);
-} else (){
-  console.log("Non hai speso almeno 50, quindi dovrai pagare la spedizione. Il totale è " + totalShoppingCart + spedizione);
+} else {
+  console.log("Non hai speso almeno 50, quindi dovrai pagare la spedizione. Il totale è " + tot);
 }*/
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
